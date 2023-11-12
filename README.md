@@ -1,3 +1,4 @@
+![Logo](https://github.com/THG2009/Fish-Away/blob/d8d2396aeb13bbe4ca0c7171e1ac261e7323da21/minecraft_title_hd.png)
 # Fish Away - Forge
 
 ### A general fishing/resource gathering mod for 1.20.1

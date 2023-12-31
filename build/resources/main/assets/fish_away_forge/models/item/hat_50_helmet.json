@@ -1,0 +1,7 @@
+{
+  "parent": "fish_away_forge:custom/hat_50_item",
+  "textures": {
+    "0": "fish_away_forge:block/oak_log",
+    "particle": "fish_away_forge:item/oak_log"
+  }
+}

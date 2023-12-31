@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "fish_away_forge:pear"
+    },
+    "title": {
+      "translate": "advancements.nice_place.title"
+    },
+    "description": {
+      "translate": "advancements.nice_place.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nice_place": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "fish_away_forge:fishermans_beach"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "fish_away_forge:upgrading_the_fishing"
+}

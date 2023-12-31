@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fish_away_forge:driftwood_scraps"
+    },
+    {
+      "item": "fish_away_forge:driftwood_scraps"
+    },
+    {
+      "item": "fish_away_forge:driftwood_scraps"
+    },
+    {
+      "item": "fish_away_forge:driftwood_scraps"
+    }
+  ],
+  "result": {
+    "item": "fish_away_forge:driftwood_block",
+    "count": 1
+  }
+}

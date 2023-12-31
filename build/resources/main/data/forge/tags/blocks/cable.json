@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "fish_away_forge:basic_power_cable",
+    "fish_away_forge:basic_power_cable_e",
+    "fish_away_forge:basic_power_cable_f",
+    "fish_away_forge:basic_power_cable_i",
+    "fish_away_forge:basic_power_cable_l",
+    "fish_away_forge:basic_power_cable_lc",
+    "fish_away_forge:basic_power_cable_lcc",
+    "fish_away_forge:basic_power_cable_lt",
+    "fish_away_forge:basic_power_cable_ltc",
+    "fish_away_forge:basic_power_cable_t",
+    "fish_away_forge:basic_power_cable_tc",
+    "fish_away_forge:basic_power_cable_tx",
+    "fish_away_forge:basic_power_cable_txc",
+    "fish_away_forge:basic_power_cable_txcc",
+    "fish_away_forge:basic_power_cable_x",
+    "fish_away_forge:basic_power_cable_xc",
+    "fish_away_forge:basic_power_cable_s"
+  ]
+}

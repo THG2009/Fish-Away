@@ -1,0 +1,9 @@
+{
+  "parent": "fish_away_forge:custom/electrical_cable_e",
+  "textures": {
+    "all": "fish_away_forge:block/power_cable_basic",
+    "particle": "fish_away_forge:block/power_cable_basic",
+    "0": "fish_away_forge:block/power_cable_basic"
+  },
+  "render_type": "cutout"
+}

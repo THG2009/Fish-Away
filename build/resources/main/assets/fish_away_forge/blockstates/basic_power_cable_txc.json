@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fish_away_forge:block/basic_power_cable_txc"
+    },
+    "facing=east": {
+      "model": "fish_away_forge:block/basic_power_cable_txc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fish_away_forge:block/basic_power_cable_txc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fish_away_forge:block/basic_power_cable_txc",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fish_away_forge:block/basic_power_cable_txc",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fish_away_forge:block/basic_power_cable_txc",
+      "x": 90
+    }
+  }
+}

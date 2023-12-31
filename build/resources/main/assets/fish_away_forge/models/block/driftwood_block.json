@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fish_away_forge:block/driftwood_block_top",
+    "up": "fish_away_forge:block/driftwood_block_top",
+    "north": "fish_away_forge:block/driftwood_block",
+    "east": "fish_away_forge:block/driftwood_block",
+    "south": "fish_away_forge:block/driftwood_block",
+    "west": "fish_away_forge:block/driftwood_block",
+    "particle": "fish_away_forge:block/driftwood_block_top"
+  },
+  "render_type": "solid"
+}

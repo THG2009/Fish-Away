@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="fish_away_forge"
+version="0.2.2"
+displayName="Fish Away Forge"
+updateJSONURL="https://github.com/THG2009/Fish-Away/blob/8714671903ae7c0f9d005c049740ee0a38dcadbc/update.json"
+displayURL="https://modrinth.com/mod/fish-away-forge"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="THG2009"
+
+[[dependencies.fish_away_forge]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.fish_away_forge]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

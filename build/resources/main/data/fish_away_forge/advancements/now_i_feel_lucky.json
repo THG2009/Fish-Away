@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "fish_away_forge:golden_fishing_rod"
+    },
+    "title": {
+      "translate": "advancements.now_i_feel_lucky.title"
+    },
+    "description": {
+      "translate": "advancements.now_i_feel_lucky.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "now_i_feel_lucky": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fish_away_forge:golden_fishing_rod"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "fish_away_forge:diamond_fishing_rod_recipe"
+    ]
+  },
+  "parent": "fish_away_forge:upgrading_the_fishing"
+}

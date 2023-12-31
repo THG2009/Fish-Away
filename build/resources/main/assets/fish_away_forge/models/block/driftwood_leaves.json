@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fish_away_forge:block/driftwood_leaves",
+    "particle": "fish_away_forge:block/driftwood_leaves"
+  },
+  "render_type": "cutout"
+}

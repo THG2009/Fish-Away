@@ -1,0 +1,15 @@
+Java Launcher: G:\MCreator\Versions\MCreator.EAP.2023.4.44716.Windows.64bit\MCreatorEAP2023444716\jdk\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\joshu\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.1-81-FORGE\b4263929277e3a853dfe4e3c51cba10d5a34f067\Patchouli-1.20.1-81-FORGE.jar, --output, C:\Users\joshu\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.20.1-81-FORGE_mapped_official_1.20.1\Patchouli-1.20.1-81-FORGE_mapped_official_1.20.1.jar, --mcp, C:\Users\joshu\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.20.1\mapping-1.20.1-mapping.zip, --strip-signatures'
+Classpath:
+ - C:\Users\joshu\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.2\installertools-1.3.2-fatjar.jar
+Working directory: C:\Users\joshu\MCreatorWorkspaces\fish_away_forge\build\_RenameSrg2Mcp_-201965629
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\joshu\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.1-81-FORGE\b4263929277e3a853dfe4e3c51cba10d5a34f067\Patchouli-1.20.1-81-FORGE.jar
+Output: C:\Users\joshu\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.20.1-81-FORGE_mapped_official_1.20.1\Patchouli-1.20.1-81-FORGE_mapped_official_1.20.1.jar
+MCP:    C:\Users\joshu\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.20.1\mapping-1.20.1-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

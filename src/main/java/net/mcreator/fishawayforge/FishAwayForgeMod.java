@@ -16,6 +16,9 @@ package net.mcreator.fishawayforge;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.mcreator.fishawayforge.init.FishAwayForgeModTabs;
+import net.mcreator.fishawayforge.init.FishAwayForgeModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -33,6 +36,10 @@ public class FishAwayForgeMod {
 	public FishAwayForgeMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		FishAwayForgeModItems.REGISTRY.register(bus);
+
+		FishAwayForgeModTabs.REGISTRY.register(bus);
 
 	}
 

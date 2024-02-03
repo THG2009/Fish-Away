@@ -1,5 +1,86 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Pear",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishawayforge/item/PearItem.java",
+          "src/main/resources/assets/fish_away_forge/models/item/pear.json"
+        ]
+      },
+      "path": "~/Items/food"
+    },
+    {
+      "name": "PearProperties",
+      "type": "itemextension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pear_properties",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/food"
+    },
+    {
+      "name": "FishAway",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_away",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishawayforge/item/CopperAxeItem.java",
+          "src/main/resources/assets/fish_away_forge/models/item/copper_axe.json"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "DriftwoodScraps",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "driftwood_scraps",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/driftwood_scraps.json",
+          "src/main/java/net/mcreator/fishawayforge/item/DriftwoodScrapsItem.java"
+        ]
+      },
+      "path": "~/Items/materials"
+    },
+    {
+      "name": "DriftwoodScrapsProperties",
+      "type": "itemextension",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "driftwood_scraps_properties",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/materials"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
@@ -42,6 +123,7 @@
       "item.fish_away_forge.diamond_fishing_rod": "Diamond Fishing Rod",
       "item_group.fish_away_forge.fish_away_tab": "Fish Away",
       "block.fish_away_forge.diamond_chunk_stone": "Stone Diamond Chunk ",
+      "item_group.fish_away_forge.fish_away": "Fish Away",
       "block.fish_away_forge.basic_power_cable": "Basic Power Cable",
       "advancements.nice_place.title": "Nice Place",
       "advancements.now_i_feel_lucky.title": "Now I Feel Lucky",
@@ -76,10 +158,6 @@
         "name": "Items",
         "children": [
           {
-            "name": "junk",
-            "children": []
-          },
-          {
             "name": "tools",
             "children": [
               {
@@ -89,11 +167,19 @@
               {
                 "name": "bow",
                 "children": []
+              },
+              {
+                "name": "copper",
+                "children": []
               }
             ]
           },
           {
-            "name": "copper",
+            "name": "materials",
+            "children": []
+          },
+          {
+            "name": "food",
             "children": []
           }
         ]
@@ -133,31 +219,7 @@
         "children": [
           {
             "name": "blocks",
-            "children": [
-              {
-                "name": "BasicPowerCable",
-                "children": [
-                  {
-                    "name": "ModelUpdater",
-                    "children": [
-                      {
-                        "name": "Sub",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "name": "FE",
-                    "children": [
-                      {
-                        "name": "Sub",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
+            "children": []
           },
           {
             "name": "armor",
@@ -186,7 +248,7 @@
     "version": "0.2.2",
     "author": "THG2009",
     "websiteURL": "https://modrinth.com/mod/fish-away-forge",
-    "license": "All Rights Reserved",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "updateURL": "https://github.com/THG2009/Fish-Away/blob/8714671903ae7c0f9d005c049740ee0a38dcadbc/update.json",

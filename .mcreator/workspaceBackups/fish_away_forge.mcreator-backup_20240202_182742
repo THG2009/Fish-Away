@@ -108,20 +108,6 @@
         ]
       },
       "path": "~/loot_tables/fishing"
-    },
-    {
-      "name": "FishingJunkInjector",
-      "type": "lootmodifier",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fishing_junk_injector",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fish_away_forge/loot_modifiers/fishing_junk_injector.json"
-        ]
-      },
-      "path": "~/loot_tables/fishing"
     }
   ],
   "variable_elements": [],

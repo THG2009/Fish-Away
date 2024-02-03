@@ -52,76 +52,6 @@
         ]
       },
       "path": "~/Items/tools/copper"
-    },
-    {
-      "name": "DriftwoodScraps",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "driftwood_scraps",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fish_away_forge/models/item/driftwood_scraps.json",
-          "src/main/java/net/mcreator/fishawayforge/item/DriftwoodScrapsItem.java"
-        ]
-      },
-      "path": "~/Items/materials"
-    },
-    {
-      "name": "DriftwoodScrapsProperties",
-      "type": "itemextension",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "driftwood_scraps_properties",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Items/materials"
-    },
-    {
-      "name": "CopperFishingRod",
-      "type": "tool",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copper_fishing_rod",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fish_away_forge/models/item/copper_fishing_rod.json",
-          "src/main/java/net/mcreator/fishawayforge/item/CopperFishingRodItem.java"
-        ]
-      },
-      "path": "~/Items/tools/fishing_rods"
-    },
-    {
-      "name": "FishingJunk",
-      "type": "loottable",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fishing_junk",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fish_away_forge/loot_tables/gameplay/fishing/junk.json"
-        ]
-      },
-      "path": "~/loot_tables/fishing"
-    },
-    {
-      "name": "FishingJunkInjector",
-      "type": "lootmodifier",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fishing_junk_injector",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fish_away_forge/loot_modifiers/fishing_junk_injector.json"
-        ]
-      },
-      "path": "~/loot_tables/fishing"
     }
   ],
   "variable_elements": [],
@@ -262,7 +192,31 @@
         "children": [
           {
             "name": "blocks",
-            "children": []
+            "children": [
+              {
+                "name": "BasicPowerCable",
+                "children": [
+                  {
+                    "name": "ModelUpdater",
+                    "children": [
+                      {
+                        "name": "Sub",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FE",
+                    "children": [
+                      {
+                        "name": "Sub",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "armor",

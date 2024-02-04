@@ -195,7 +195,7 @@
           "src/main/resources/data/fish_away_forge/recipes/copper_fishing_rod_recipe.json"
         ]
       },
-      "path": "~/recipes/fishing_rods"
+      "path": "~/recipes/tools/fishing_rods"
     },
     {
       "name": "IronFishingRodRecipe",
@@ -209,7 +209,7 @@
           "src/main/resources/data/fish_away_forge/recipes/iron_fishing_rod_recipe.json"
         ]
       },
-      "path": "~/recipes/fishing_rods"
+      "path": "~/recipes/tools/fishing_rods"
     },
     {
       "name": "GoldenFishingRodRecipe",
@@ -223,7 +223,7 @@
           "src/main/resources/data/fish_away_forge/recipes/golden_fishing_rod_recipe.json"
         ]
       },
-      "path": "~/recipes/fishing_rods"
+      "path": "~/recipes/tools/fishing_rods"
     },
     {
       "name": "DiamondFishingRodRecipe",
@@ -237,7 +237,7 @@
           "src/main/resources/data/fish_away_forge/recipes/diamond_fishing_rod_recipe.json"
         ]
       },
-      "path": "~/recipes/fishing_rods"
+      "path": "~/recipes/tools/fishing_rods"
     },
     {
       "name": "NetheriteFishingRodRecipe",
@@ -251,7 +251,137 @@
           "src/main/resources/data/fish_away_forge/recipes/netherite_fishing_rod_recipe.json"
         ]
       },
-      "path": "~/recipes/fishing_rods"
+      "path": "~/recipes/tools/fishing_rods"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/copper_pickaxe.json",
+          "src/main/java/net/mcreator/fishawayforge/item/CopperPickaxeItem.java"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/copper_shovel.json",
+          "src/main/java/net/mcreator/fishawayforge/item/CopperShovelItem.java"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishawayforge/item/CopperHoeItem.java",
+          "src/main/resources/assets/fish_away_forge/models/item/copper_hoe.json"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishawayforge/item/CopperSwordItem.java",
+          "src/main/resources/assets/fish_away_forge/models/item/copper_sword.json"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/copper_sword_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/copper_shovel_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/copper_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/copper_hoe_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/copper_axe_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
     }
   ],
   "variable_elements": [],
@@ -322,8 +452,17 @@
             "children": []
           },
           {
-            "name": "fishing_rods",
-            "children": []
+            "name": "tools",
+            "children": [
+              {
+                "name": "fishing_rods",
+                "children": []
+              },
+              {
+                "name": "copper",
+                "children": []
+              }
+            ]
           }
         ]
       },

@@ -10,6 +10,10 @@ import net.mcreator.fishawayforge.item.IronFishingRodItem;
 import net.mcreator.fishawayforge.item.GoldenFishingRodItem;
 import net.mcreator.fishawayforge.item.DriftwoodScrapsItem;
 import net.mcreator.fishawayforge.item.DiamondFishingRodItem;
+import net.mcreator.fishawayforge.item.CopperSwordItem;
+import net.mcreator.fishawayforge.item.CopperShovelItem;
+import net.mcreator.fishawayforge.item.CopperPickaxeItem;
+import net.mcreator.fishawayforge.item.CopperHoeItem;
 import net.mcreator.fishawayforge.item.CopperFishingRodItem;
 import net.mcreator.fishawayforge.item.CopperAxeItem;
 import net.mcreator.fishawayforge.FishAwayForgeMod;
@@ -24,4 +28,8 @@ public class FishAwayForgeModItems {
 	public static final RegistryObject<Item> GOLDEN_FISHING_ROD = REGISTRY.register("golden_fishing_rod", () -> new GoldenFishingRodItem());
 	public static final RegistryObject<Item> DIAMOND_FISHING_ROD = REGISTRY.register("diamond_fishing_rod", () -> new DiamondFishingRodItem());
 	public static final RegistryObject<Item> NETHERITE_FISHING_ROD = REGISTRY.register("netherite_fishing_rod", () -> new NetheriteFishingRodItem());
+	public static final RegistryObject<Item> COPPER_PICKAXE = REGISTRY.register("copper_pickaxe", () -> new CopperPickaxeItem());
+	public static final RegistryObject<Item> COPPER_SHOVEL = REGISTRY.register("copper_shovel", () -> new CopperShovelItem());
+	public static final RegistryObject<Item> COPPER_HOE = REGISTRY.register("copper_hoe", () -> new CopperHoeItem());
+	public static final RegistryObject<Item> COPPER_SWORD = REGISTRY.register("copper_sword", () -> new CopperSwordItem());
 }

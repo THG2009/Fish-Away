@@ -3,19 +3,19 @@ package net.mcreator.fishawayforge.item;
 
 import java.util.List;
 
-public class CopperAxeItem extends AxeItem {
-	public CopperAxeItem() {
+public class CopperSwordItem extends SwordItem {
+	public CopperSwordItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 200;
 			}
 
 			public float getSpeed() {
-				return 5f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 8f;
+				return 3f;
 			}
 
 			public int getLevel() {
@@ -27,9 +27,9 @@ public class CopperAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
+				return Ingredient.of();
 			}
-		}, 1, -3.1f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
 	}
 
 	@Override

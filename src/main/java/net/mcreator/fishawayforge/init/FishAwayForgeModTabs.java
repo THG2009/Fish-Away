@@ -18,6 +18,10 @@ public class FishAwayForgeModTabs {
 				tabData.accept(FishAwayForgeModItems.GOLDEN_FISHING_ROD.get());
 				tabData.accept(FishAwayForgeModItems.DIAMOND_FISHING_ROD.get());
 				tabData.accept(FishAwayForgeModItems.NETHERITE_FISHING_ROD.get());
+				tabData.accept(FishAwayForgeModItems.COPPER_PICKAXE.get());
+				tabData.accept(FishAwayForgeModItems.COPPER_SHOVEL.get());
+				tabData.accept(FishAwayForgeModItems.COPPER_HOE.get());
+				tabData.accept(FishAwayForgeModItems.COPPER_SWORD.get());
 			})
 
 					.build());

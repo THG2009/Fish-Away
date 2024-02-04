@@ -3,7 +3,7 @@
     {
       "name": "Pear",
       "type": "item",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pear",
@@ -18,7 +18,7 @@
     {
       "name": "PearProperties",
       "type": "itemextension",
-      "sortid": 1,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pear_properties",
@@ -30,7 +30,7 @@
     {
       "name": "FishAway",
       "type": "tab",
-      "sortid": 3,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_away",
@@ -41,7 +41,7 @@
     {
       "name": "CopperAxe",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_axe",
@@ -56,7 +56,7 @@
     {
       "name": "DriftwoodScraps",
       "type": "item",
-      "sortid": 5,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "driftwood_scraps",
@@ -71,7 +71,7 @@
     {
       "name": "DriftwoodScrapsProperties",
       "type": "itemextension",
-      "sortid": 6,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "driftwood_scraps_properties",
@@ -83,7 +83,7 @@
     {
       "name": "CopperFishingRod",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_fishing_rod",
@@ -122,6 +122,136 @@
         ]
       },
       "path": "~/loot_tables/fishing"
+    },
+    {
+      "name": "IronFishingRod",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/iron_fishing_rod.json",
+          "src/main/java/net/mcreator/fishawayforge/item/IronFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "GoldenFishingRod",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/golden_fishing_rod.json",
+          "src/main/java/net/mcreator/fishawayforge/item/GoldenFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "DiamondFishingRod",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/diamond_fishing_rod.json",
+          "src/main/java/net/mcreator/fishawayforge/item/DiamondFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "NetheriteFishingRod",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishawayforge/item/NetheriteFishingRodItem.java",
+          "src/main/resources/assets/fish_away_forge/models/item/netherite_fishing_rod.json"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "CopperFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/copper_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/fishing_rods"
+    },
+    {
+      "name": "IronFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/iron_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/fishing_rods"
+    },
+    {
+      "name": "GoldenFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/golden_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/fishing_rods"
+    },
+    {
+      "name": "DiamondFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/diamond_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/fishing_rods"
+    },
+    {
+      "name": "NetheriteFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/recipes/netherite_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/fishing_rods"
     }
   ],
   "variable_elements": [],
@@ -188,11 +318,11 @@
         "name": "recipes",
         "children": [
           {
-            "name": "copper",
+            "name": "download_hats",
             "children": []
           },
           {
-            "name": "download_hats",
+            "name": "fishing_rods",
             "children": []
           }
         ]

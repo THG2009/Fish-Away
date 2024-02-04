@@ -10,7 +10,7 @@
     "name": "Pear",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:FishAway"
     },
     "stackSize": 64,
     "enchantability": 0,

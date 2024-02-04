@@ -3,10 +3,155 @@
     {
       "name": "Pear",
       "type": "item",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishawayforge/item/PearItem.java",
+          "src/main/resources/assets/fish_away_forge/models/item/pear.json"
+        ]
+      },
+      "path": "~/Items/food"
+    },
+    {
+      "name": "PearProperties",
+      "type": "itemextension",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pear_properties",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/food"
+    },
+    {
+      "name": "FishAway",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_away",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishawayforge/item/CopperAxeItem.java",
+          "src/main/resources/assets/fish_away_forge/models/item/copper_axe.json"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "DriftwoodScraps",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "driftwood_scraps",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/driftwood_scraps.json",
+          "src/main/java/net/mcreator/fishawayforge/item/DriftwoodScrapsItem.java"
+        ]
+      },
       "path": "~/Items/materials"
+    },
+    {
+      "name": "DriftwoodScrapsProperties",
+      "type": "itemextension",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "driftwood_scraps_properties",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/materials"
+    },
+    {
+      "name": "CopperFishingRod",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/copper_fishing_rod.json",
+          "src/main/java/net/mcreator/fishawayforge/item/CopperFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "FishingJunk",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing_junk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/loot_tables/gameplay/fishing/junk.json"
+        ]
+      },
+      "path": "~/loot_tables/fishing"
+    },
+    {
+      "name": "FishingJunkInjector",
+      "type": "lootmodifier",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing_junk_injector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/loot_modifiers/fishing_junk_injector.json"
+        ]
+      },
+      "path": "~/loot_tables/fishing"
+    },
+    {
+      "name": "IronFishingRod",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/iron_fishing_rod.json",
+          "src/main/java/net/mcreator/fishawayforge/item/IronFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "GoldenFishingRod",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/golden_fishing_rod.json",
+          "src/main/java/net/mcreator/fishawayforge/item/GoldenFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
     }
   ],
   "variable_elements": [],
@@ -24,8 +169,8 @@
       "block.fish_away_forge.emerald_chunk_deepslate": "Deepslate Diamond Chunk",
       "item.fish_away_forge.copper_sword": "Copper Sword",
       "item.fish_away_forge.old_boot_1": "Old Boot",
-      "block.fish_away_forge.basic_power_cable_x": "Basic Power Cable",
       "item.fish_away_forge.golden_fishing_rod": "Golden Fishing Rod",
+      "block.fish_away_forge.basic_power_cable_x": "Basic Power Cable",
       "block.fish_away_forge.basic_power_cable_t": "Basic Power Cable",
       "block.fish_away_forge.basic_power_cable_s": "Basic Power Cable",
       "block.fish_away_forge.diamond_chunk_deepslate": "Deepslate Diamond Chunk",
@@ -51,6 +196,7 @@
       "item.fish_away_forge.diamond_fishing_rod": "Diamond Fishing Rod",
       "item_group.fish_away_forge.fish_away_tab": "Fish Away",
       "block.fish_away_forge.diamond_chunk_stone": "Stone Diamond Chunk ",
+      "item_group.fish_away_forge.fish_away": "Fish Away",
       "block.fish_away_forge.basic_power_cable": "Basic Power Cable",
       "advancements.nice_place.title": "Nice Place",
       "advancements.now_i_feel_lucky.title": "Now I Feel Lucky",
@@ -94,15 +240,19 @@
               {
                 "name": "bow",
                 "children": []
+              },
+              {
+                "name": "copper",
+                "children": []
               }
             ]
           },
           {
-            "name": "copper",
+            "name": "materials",
             "children": []
           },
           {
-            "name": "materials",
+            "name": "food",
             "children": []
           }
         ]
@@ -142,31 +292,7 @@
         "children": [
           {
             "name": "blocks",
-            "children": [
-              {
-                "name": "BasicPowerCable",
-                "children": [
-                  {
-                    "name": "ModelUpdater",
-                    "children": [
-                      {
-                        "name": "Sub",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "name": "FE",
-                    "children": [
-                      {
-                        "name": "Sub",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
+            "children": []
           },
           {
             "name": "armor",

@@ -79,6 +79,49 @@
         "files": []
       },
       "path": "~/Items/materials"
+    },
+    {
+      "name": "CopperFishingRod",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away_forge/models/item/copper_fishing_rod.json",
+          "src/main/java/net/mcreator/fishawayforge/item/CopperFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "FishingJunk",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing_junk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/loot_tables/gameplay/fishing/junk.json"
+        ]
+      },
+      "path": "~/loot_tables/fishing"
+    },
+    {
+      "name": "FishingJunkInjector",
+      "type": "lootmodifier",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing_junk_injector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away_forge/loot_modifiers/fishing_junk_injector.json"
+        ]
+      },
+      "path": "~/loot_tables/fishing"
     }
   ],
   "variable_elements": [],

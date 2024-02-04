@@ -1,4 +1,5 @@
 ![Logo](https://github.com/THG2009/Fish-Away/blob/d8d2396aeb13bbe4ca0c7171e1ac261e7323da21/minecraft_title_hd.png)
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/vyaQ048Z?logo=modrinth&link=https%3A%2F%2Fmodrinth.com%2Fmod%2Ffish-away-forge) ![CurseForge Downloads](https://img.shields.io/curseforge/dt/921473?logo=curseforge&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Ffish-away-forge) ![GitHub issues](https://img.shields.io/github/issues/thg2009/fish-away?logo=github&link=https%3A%2F%2Fgithub.com%2FTHG2009%2FFish-Away%2Fissues)
 # Fish Away - Forge
 
 ### A general fishing/resource gathering mod for 1.20.1

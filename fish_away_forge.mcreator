@@ -18,7 +18,7 @@
     {
       "name": "PearProperties",
       "type": "itemextension",
-      "sortid": 5,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pear_properties",
@@ -30,7 +30,7 @@
     {
       "name": "FishAway",
       "type": "tab",
-      "sortid": 6,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_away",
@@ -41,7 +41,7 @@
     {
       "name": "CopperAxe",
       "type": "tool",
-      "sortid": 3,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_axe",
@@ -71,7 +71,7 @@
     {
       "name": "DriftwoodScrapsProperties",
       "type": "itemextension",
-      "sortid": 7,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "driftwood_scraps_properties",
@@ -83,7 +83,7 @@
     {
       "name": "CopperFishingRod",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_fishing_rod",
@@ -98,7 +98,7 @@
     {
       "name": "FishingJunk",
       "type": "loottable",
-      "sortid": 8,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fishing_junk",
@@ -112,7 +112,7 @@
     {
       "name": "FishingJunkInjector",
       "type": "lootmodifier",
-      "sortid": 9,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fishing_junk_injector",
@@ -126,7 +126,7 @@
     {
       "name": "IronFishingRod",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_fishing_rod",
@@ -141,7 +141,7 @@
     {
       "name": "GoldenFishingRod",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_fishing_rod",
@@ -156,7 +156,7 @@
     {
       "name": "DiamondFishingRod",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_fishing_rod",
@@ -171,7 +171,7 @@
     {
       "name": "NetheriteFishingRod",
       "type": "tool",
-      "sortid": 13,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_fishing_rod",
@@ -186,7 +186,7 @@
     {
       "name": "CopperFishingRodRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_fishing_rod_recipe",
@@ -200,7 +200,7 @@
     {
       "name": "IronFishingRodRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_fishing_rod_recipe",
@@ -214,7 +214,7 @@
     {
       "name": "GoldenFishingRodRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_fishing_rod_recipe",
@@ -228,7 +228,7 @@
     {
       "name": "DiamondFishingRodRecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_fishing_rod_recipe",
@@ -242,7 +242,7 @@
     {
       "name": "NetheriteFishingRodRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_fishing_rod_recipe",
@@ -256,7 +256,7 @@
     {
       "name": "CopperPickaxe",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pickaxe",
@@ -271,7 +271,7 @@
     {
       "name": "CopperShovel",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_shovel",
@@ -286,7 +286,7 @@
     {
       "name": "CopperHoe",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_hoe",
@@ -301,7 +301,7 @@
     {
       "name": "CopperSword",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_sword",
@@ -470,14 +470,14 @@
       "block.fish_away_forge.emerald_chunk_deepslate": "Deepslate Diamond Chunk",
       "item.fish_away_forge.copper_sword": "Copper Sword",
       "item.fish_away_forge.old_boot_1": "Old Boot",
-      "block.fish_away_forge.basic_power_cable_x": "Basic Power Cable",
       "item.fish_away_forge.golden_fishing_rod": "Golden Fishing Rod",
+      "block.fish_away_forge.basic_power_cable_x": "Basic Power Cable",
       "block.fish_away_forge.basic_power_cable_t": "Basic Power Cable",
       "block.fish_away_forge.basic_power_cable_s": "Basic Power Cable",
       "block.fish_away_forge.diamond_chunk_deepslate": "Deepslate Diamond Chunk",
       "block.fish_away_forge.basic_power_cable_lc": "Basic Power Cable",
-      "advancements.upgrading_the_rod.descr": "Obtain an Iron Fishing Rod",
       "block.fish_away_forge.basic_power_cable_lcc": "Basic Power Cable",
+      "advancements.upgrading_the_rod.descr": "Obtain an Iron Fishing Rod",
       "advancements.root.title": "Fish Away",
       "item.fish_away_forge.pear": "Pear",
       "block.fish_away_forge.emerald_chunk_stone": "Stone Diamond Chunk ",

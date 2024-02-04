@@ -22,14 +22,14 @@ public class FishAwayForgeModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FishAwayForgeMod.MODID);
 	public static final RegistryObject<Item> PEAR = REGISTRY.register("pear", () -> new PearItem());
 	public static final RegistryObject<Item> DRIFTWOOD_SCRAPS = REGISTRY.register("driftwood_scraps", () -> new DriftwoodScrapsItem());
+	public static final RegistryObject<Item> COPPER_SWORD = REGISTRY.register("copper_sword", () -> new CopperSwordItem());
+	public static final RegistryObject<Item> COPPER_PICKAXE = REGISTRY.register("copper_pickaxe", () -> new CopperPickaxeItem());
+	public static final RegistryObject<Item> COPPER_SHOVEL = REGISTRY.register("copper_shovel", () -> new CopperShovelItem());
 	public static final RegistryObject<Item> COPPER_AXE = REGISTRY.register("copper_axe", () -> new CopperAxeItem());
+	public static final RegistryObject<Item> COPPER_HOE = REGISTRY.register("copper_hoe", () -> new CopperHoeItem());
 	public static final RegistryObject<Item> COPPER_FISHING_ROD = REGISTRY.register("copper_fishing_rod", () -> new CopperFishingRodItem());
 	public static final RegistryObject<Item> IRON_FISHING_ROD = REGISTRY.register("iron_fishing_rod", () -> new IronFishingRodItem());
 	public static final RegistryObject<Item> GOLDEN_FISHING_ROD = REGISTRY.register("golden_fishing_rod", () -> new GoldenFishingRodItem());
 	public static final RegistryObject<Item> DIAMOND_FISHING_ROD = REGISTRY.register("diamond_fishing_rod", () -> new DiamondFishingRodItem());
 	public static final RegistryObject<Item> NETHERITE_FISHING_ROD = REGISTRY.register("netherite_fishing_rod", () -> new NetheriteFishingRodItem());
-	public static final RegistryObject<Item> COPPER_PICKAXE = REGISTRY.register("copper_pickaxe", () -> new CopperPickaxeItem());
-	public static final RegistryObject<Item> COPPER_SHOVEL = REGISTRY.register("copper_shovel", () -> new CopperShovelItem());
-	public static final RegistryObject<Item> COPPER_HOE = REGISTRY.register("copper_hoe", () -> new CopperHoeItem());
-	public static final RegistryObject<Item> COPPER_SWORD = REGISTRY.register("copper_sword", () -> new CopperSwordItem());
 }
